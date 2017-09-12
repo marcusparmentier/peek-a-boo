@@ -1,4 +1,8 @@
-#initially-showing {
+#initially-hidden {
+  display: none;
+}
+
+#hide-image {
   display: none;
 }
 
@@ -8,5 +12,18 @@
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.clickFadeIn {
+  display: none;
+}
+
+h1 {
+  cursor: pointer;
+  color: blue;
+}
+
+h1:hover {
   text-decoration: underline;
 }
